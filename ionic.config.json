@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "proxies": [
+    {
+    "path": "/verif",
+    "proxyUrl": "http://localhost:8000/verif"
+    }
+  ]
+}
